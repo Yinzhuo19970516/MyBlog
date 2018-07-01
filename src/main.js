@@ -6,8 +6,11 @@ import VueResource from 'vue-resource'
 import Routes from './routes'
 import VueRouter from 'vue-router'
 import $ from 'jquery'
-import '_bootstrap@4.1.1@bootstrap/dist/js/bootstrap.min.js'
-import '_bootstrap@4.1.1@bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './directives'
+import './components'
+import store from './store'
 
 
 

@@ -14,6 +14,7 @@ import Login from './components/Login'
 import Registered from './components/Registered'
 
 
+
 export default {
   name: 'app',
   components:{
